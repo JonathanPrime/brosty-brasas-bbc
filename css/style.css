@@ -832,6 +832,35 @@ home-img {
   padding: 1.5rem 0;
 }
 
+.dom-content {
+  display: flex;
+  align-items: center;
+}
+
+.domicilio .dom-content .img-domicile {
+  width: 100%;
+  height: auto;
+}
+
+.domicilio .dom-content .dom_description {
+  font-size: 18px;
+  font-family: 'Poppins-Regular';
+}
+
+.domicilio .dom-content .heading .domi-title {
+  font-family: 'Insaniburguer';
+  font-size: 4rem;
+  padding-left: 6rem;
+  color: var(--black);
+}
+
+.domicilio .dom-content .heading .script-domi {
+    font-family: 'Chairville';
+    font-size: 10rem;
+    margin-top: -5rem;
+    color: var(--palet-1);
+}
+
 .footer {
   background: url(../images/vectores/mis-1.svg), rgba(0, 0, 0, 0.959);
   background-size: contain;
