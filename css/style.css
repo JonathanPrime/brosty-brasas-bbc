@@ -569,7 +569,7 @@ home-img {
 }
 
 .about .content p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2;
   color: var(--black);
   padding: 2rem 0;
@@ -1403,6 +1403,9 @@ input.whats-input[type=text]:focus {
 }
 
 @media (max-width: 768px) {
+  .domicilio .dom-content .dom_description {
+    text-align: center;
+  }
   .home-text {
     width: 100%;
     display: flex;
